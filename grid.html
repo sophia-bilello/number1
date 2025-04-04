@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset=UTF-8">
+  <title>my index page</title>
+  <style>
+   .container {  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 150px 740px 150px;
+  gap: 10px 10px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "header header header"
+    "side-left main side-right"
+    "footer footer footer";
+}
+
+.header { 
+  grid-area: header; 
+  background-color: skyblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.side-right {
+  grid-area: side-right;
+  background: aqua;
+  padding: 10px;
+  
+ }
+
+.side-left { 
+  grid-area: side-left;
+  background: aqua;
+  padding: 10px;
+ }
+
+.main { 
+  grid-area: main; 
+  background: blue;
+  padding-top: 20px;
+}
+
+.footer { 
+  grid-area: footer;
+  background: skyblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+  </style>
+</head>
+
+<body>
+  <div class="container">
+  <div class="header">
+    <h1>SHARKS!!!!!!!!!!!!!!!!!!!!!!</h1>
+  </div>
+  <div class="side-right">
+    <h2>random thoughts about sharks</h2>
+    <p>i love sharsk so much, they are so precious and they are my favorite animal. my absolute favorite is a hammerhead shark and my gf who also happens to love sharks, her favorite is a whale shark and i just happen to love sharks so much and when i went fishing in florida I CAUGHT A FREAKING SHARK, it was a 6ft sandbar shark and it was the best experience EVER!!!</p>
+    <p>I LOVE SHARKS</p>
+  </div>
+  <div class="side-left">
+    <h2> kinds of sharks </h2>
+    <img src="Types-of-Sharks.jpg" alt="types of sharks infograph, species listed below"/>
+    <p>great white, whale shark,greenland shark, basking shark, hammerhead shark, megamouth shakr, goblin shark, tiger shark, mako shark, frilled shark, bull shark, lemon shark, leapord shark, thresher shark, nurse shark, blacktip reef shark, blue shark, dwarf lantern shark, cookie cutter shark, bonnethead shark, spiny dogfish, japanese sawshark, salmon shark</p>
+  </div>
+  <div class="main">
+    <img src="IMG_2275 (1).jpg" alt="image of the shark i caught"/>
+    <img src="hammahed.webp" alt="image of a hammerhead shark otherwise known as my favorite shark"/>
+    <img src="whaleshark.webp" alt=" image of a whale shark otherwise known as my girlfriends favorite shark"/>
+  </div>
+  <div class="footer">
+    <p>certified by my silly goose self :)</p>
+  </div>
+</div>
+
+</html>
