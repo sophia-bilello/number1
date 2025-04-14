@@ -20,32 +20,6 @@
 
     }
 
-    .text {
-      color: red;
-      text-decoration: none;
-    }
-
-    .links {
-      color: rgb(255, 255, 255);
-      text-decoration: none;
-
-    }
-
-    .id {
-      color: blue;
-      text-decoration: none;
-    }
-
-    .boxes {
-      color: red;
-      text-decoration: none;
-    }
-    .images {
-      color: rgb(255, 255, 255);
-      text-decoration: none;
-
-    }
-
     h1 {
       color: blue;
     }
@@ -65,12 +39,29 @@
     }
 
     li a {
-      padding: 10px;
+      text-decoration: none;
+      color: white;
+      transition: font-size .3s, color .3s;
+      
+    }
+
+    .blue {
+      color: #00f;
     }
 
     li a:hover {
-      background: rgba(0, 0, 255, 0.235);
+      color: red;
+      font-size: 30px;
     }
+
+    .foot{
+      font-size: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color:red;
+    }
+ 
   </style>
 </head>
 
@@ -81,12 +72,19 @@
   <hr>
   <h2>the links...</h2>
   <ul>
-    <li><a class="text" href="text.html">text page</a></li>
-    <li><a class="links" href="links.html">links page</a></li>
-    <li><a class="id" href="class-id.html">class id page</a></li>
-    <li><a class="boxes" href="boxes.html">boxes page</a></li>
-    <li><a class="images" href="images.html">images page</a></li>
+    <li><a href="text.html">text page</a></li>
+    <li><a class="blue" href="links.html">links page</a></li>
+    <li><a href="class-id.html">class id page</a></li>
+    <li><a class="blue"  href="boxes.html">boxes page</a></li>
+    <li><a href="images.html">images page</a></li>
+    <li><a class="blue"  href="transition.html">transitions page</a></li>
+    <li><a href="position.html">positions page</a></li>
+    <li><a class="blue"  href="float.html">floats page</a></li>
+    <li><a href="flex-demo.html">flex box page</a></li>
+    <li><a class="blue"  href="grid.html">css grid page</a></li>
   </ul>
+  <li><a href="seahorse.html">seahorse serentiy page</a></li>
+  <p><a class="foot"> pointless text because why not</a></p>
 </body>
 
 </html>

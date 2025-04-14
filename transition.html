@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset=UTF-8">
+  <title>my index page</title>
+  
+<style>
+
+#one{
+  margin-left: 25%;
+  height:106px;
+  width:106px;
+  background:white;
+  border: 3px solid black;
+  transition: height 1s, width 1s, background 1.5s, border .5s;
+ }
+ #one:hover{
+  height: 1120px;
+  width: 1120px;
+  border: 3px solid white;
+  border-radius:50%;
+  background-image: radial-gradient( circle farthest-corner at -4.1% 49.8%,  rgba(247,127,127,1) 0%, rgba(255,175,90,1) 20.8%, rgba(151,255,114,1) 43.8%, rgba(149,251,255,1) 65.2%, rgba(147,145,255,1) 84.3%, rgba(255,147,248,1) 100.2% );
+  transform:rotate(10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000deg);
+  
+  transition: background 1.5s, height 10s, width 10s, transform 300s, border-radius 1s;
+ }
+   #two{
+    margin-top: 100px;
+    height:100px;
+    width:100px;
+    background: aqua;
+    border:3px solid blue;
+    transition: background .5s, border-radius .5s, height .6s, width .6s;
+   }
+ #two:hover{
+  background: pink;
+  border:3px solid magenta;
+  border-radius: 50%;
+  
+ }
+ #three{
+  margin-top: 100px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:400px;
+  width:400px;
+  border-radius:50%;
+  background:greenyellow;
+  transition:  transform 40s;
+ }
+
+ #three:hover {
+  transform:translateX(15000px) rotate(3600deg);
+ }
+
+ #chuck{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  height:100px;
+  width: 100px;
+  background: orange;
+  border: 3px solid;
+  transition: background 1s, border 1s, width 20s;
+
+ }
+
+ #chuck:hover {
+  background: purple;
+  border: 3px solid greenyellow;
+  height: 100px;
+  width: 1000px;
+ }
+  </style>
+</head>
+
+<body>
+<div id="one"></div>
+<div id="two"></div>
+<div id="three"><p>roll me to the right side of your screen</p></div>
+<div id="chuck"></div>
+</body>
+
+</html>
