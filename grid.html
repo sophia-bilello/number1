@@ -7,14 +7,18 @@
   <title>my index page</title>
   <style>
    .container {  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: 150px 740px 150px;
+  grid-template-columns: 400px 1fr 400px;
+  grid-template-rows: 150px 1fr 150px;
   gap: 10px 10px;
   grid-auto-flow: row;
   grid-template-areas:
     "header header header"
     "side-left main side-right"
     "footer footer footer";
+}
+
+img {
+  width: 100%;
 }
 
 .header { 
